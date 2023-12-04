@@ -709,7 +709,7 @@ public:
         cout << "HP: " << p.hp << endl;
     }
 
-    //using a breadth first algorithm like the one provided in powerpoint Graph Terminology and Implmentation
+     //this function uses BFS algorithm which is given by Prof. Aman in the Graph 8a Powerpoint slide 63
     
     int num_keys() {
         vector<Bnode*> visited2;
@@ -737,7 +737,7 @@ public:
         return count;
     }
 
-    //this function uses BFS algorithm which is given by Prof. Aman in the Graph Powerpoint 
+    //this function uses BFS algorithm which is given by Prof. Aman in the Graph 8a Powerpoint slide 63
     void bfs_print() {
         vector<Bnode*> visited6;
         if (rootactual == nullptr) {
@@ -764,6 +764,7 @@ public:
         }
     }
 
+     //this function uses BFS algorithm which is given by Prof. Aman in the Graph 8a Powerpoint slide 63
     bool search_no_print(string n, string v) {
         vector<Bnode*> visited3;
         if (rootactual == nullptr) {
@@ -883,7 +884,7 @@ public:
             cout << nameList.back() << endl;
         }
     }
-
+		   //this function uses BFS algorithm which is given by Prof. Aman in the Graph 8a Powerpoint slide 63
     bool search(string n, string v) {
         vector<Bnode*> visited3;
         if (rootactual == nullptr) {
@@ -916,7 +917,7 @@ public:
         }
         return false;
     }
-
+		   //this function uses BFS algorithm which is given by Prof. Aman in the Graph 8a Powerpoint slide 63
     Pokemon find_in_btree(string n, string v) {
         vector<Bnode*> visited3;
         if (rootactual == nullptr) {
